@@ -30,7 +30,7 @@ export default function Search() {
 				</div>
 				<input
 					type="text"
-					placeholder="Ara"
+					placeholder="Search"
 					className="w-full h-full bg-transparent rounded-full outline-none pl-[3.5rem]"
 					value={query}
 					onFocus={() => setFocus(true)}
@@ -55,7 +55,7 @@ export default function Search() {
 				<div
 					className="absolute w-[350px] top-full -left-px -translate-y-1 bg-[color:var(--background-primary)] shadow-box max-h-[calc(80vh-53px)] rounded-lg text-center min-h-[100px]">
 					<p className="p-3 pt-5 text-[color:var(--color-base-secondary)] leading-5">
-						Kişileri, listeleri veya anahtar kelimeleri aramayı dene
+						Try searching for people, topics, or keywords
 					</p>
 				</div>
 			)}
