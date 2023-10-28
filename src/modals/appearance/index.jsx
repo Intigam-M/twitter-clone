@@ -70,9 +70,6 @@ export default function AppearanceModal({ close }) {
                                             type="button"
                                             onClick={(e) => {
                                                 setFontSize(fs)
-                                                console.log(
-                                                    e.currentTarget.offsetLeft
-                                                )
                                             }}
                                             className={classNames("before:absolute before:inset-0 before:rounded-full before:hover:bg-[color:var(--color-primary)] before:opacity-10 w-8 h-8 rounded-full flex items-center justify-center relative", {
                                                 "active-font-size": fs === fontSize

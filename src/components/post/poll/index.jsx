@@ -52,7 +52,7 @@ export default function Poll({poll: pollData}) {
 			))}
 
 			<div className="text-[color:var(--color-base-secondary)] mt-2">
-				{poll.votes} oy · 6 gün kaldı
+				{poll.votes} votes
 			</div>
 		</div>
 	)

@@ -10,7 +10,6 @@ export default function ForYou() {
 	return (
 		<WVList
 			onRangeChange={(start, end) => {
-				console.log('end', end + 1)
 				if (end + 1 === posts.length) {
 					setPosts(prev => [...prev, ...postData])
 				}
