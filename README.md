@@ -11,8 +11,9 @@ Check out the live demo [here](https://twitter-clone-x.netlify.app/).
 - React
 - Redux
 - Tailwind CSS
-- headlessui
-- virtua
+- Headlessui
+- Virtua
+- Netlify
 
 ## Getting Started
 
