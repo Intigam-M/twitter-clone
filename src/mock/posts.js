@@ -60,8 +60,8 @@ export const posts = [
         type: 'photo',
         content: `Imagination Land!`,
         photos: [
-            'https://pbs.twimg.com/card_img/1716788820060884992/WkXhRxpn?format=png&name=small',
-            'https://pbs.twimg.com/card_img/1714987581329317888/UcoSsFGA?format=jpg&name=small'
+            'https://pbs.twimg.com/media/F0lfcGmWAAAd9ik?format=jpg&name=small',
+            'https://pbs.twimg.com/media/F0lfcGmWAAAd9ik?format=jpg&name=small'
         ],
         account: {
             avatar: 'https://pbs.twimg.com/profile_images/1683325380441128960/yRsRRjGO_400x400.jpg',
